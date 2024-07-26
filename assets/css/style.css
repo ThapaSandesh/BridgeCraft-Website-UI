@@ -180,6 +180,9 @@ ul li {
     margin: 0;
     padding: 0;
 }
+.nav-menu .menu-main-li {
+    position: relative; /* Ensure submenus are positioned relative to their parent li */
+}
 .nav-menu .menu-main-ul .menu-main-li{
     margin: 0 4rem;
 }
@@ -231,8 +234,11 @@ ul li {
    transition: opacity 0.3 ease, visibility 0.3s ease;
 }
 .nav-menu .sub-menu .dropdown li{
+    position: relative;
     padding: 15px 15px;
     border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    cursor: pointer;
 }
 .nav-menu .sub-menu .dropdown li:last-child{
     border-bottom: none;
@@ -242,6 +248,7 @@ ul li {
     font-weight: normal;
     position: relative;
     display: block;
+    z-index: 1;
 }
 .sub-menu {
     position: absolute;
