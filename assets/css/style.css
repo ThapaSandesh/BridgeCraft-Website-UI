@@ -196,7 +196,10 @@ ul li {
     transform-origin: left;
 
 }
-.nav-menu ul li a:hover::after{
+.nav-menu ul li a:hover::after,
+.nav-menu ul li a:active::after,
+.nav-menu ul li a:focus::after
+{
     transform: scaleX(1);
 }
 .actions{
@@ -310,9 +313,11 @@ ul li {
     transition: transform 0.3s ease;
     transform-origin: left;
   }
-  #section_hot_news .hot_news_content a:hover::after {
-    transform: scaleX(1);
-}
+  #section_hot_news .hot_news_content a:hover::after,
+  #section_hot_news .hot_news_content a:active::after,
+  #section_hot_news .hot_news_content a:focus::after {
+      transform: scaleX(1);
+  }
 
   .hot-button {
     display: inline-block;
