@@ -622,6 +622,8 @@ ul li {
     font-weight: 700;
     margin: 0 30px;
 }
+
+
 .service-title h3 {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -665,7 +667,7 @@ ul li {
 
 /* solutions section */
 #solutions_section{
- background: #600d63;
+ background: #4d545c;
 
 }
 
@@ -711,9 +713,12 @@ ul li {
 }
 .industry-list ul li a{
     color: var(--white);
+    transition: color 0.3s ease;
+    transform: scaleX();
 }
 .industry-list ul li a:hover{
     color: #9ecb58;
+    ;
 }
 .industry-list li::before {
     content: '';
