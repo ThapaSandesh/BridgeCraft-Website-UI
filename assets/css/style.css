@@ -560,7 +560,7 @@ ul li {
 /* services section */
 #section_services {
     background-color: #EBEBEB;
-    padding-top: 60px;
+    padding: 60px 0;
 }
 
 .services_inner {
@@ -665,15 +665,65 @@ ul li {
 
 /* solutions section */
 #solutions_section{
- background: #edf3f5;
-    padding: 80px 0;
+ background: #600d63;
+
 }
 
 .main_wrapper {
     margin: 0 auto;
     padding: 0 20px;
 }
-#solutions_section .main-title h2{
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
+.solution_outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
 }
+.solution_outer .solution_image{
+    flex: 1;
+    max-width: 50%;
+}
+.solution_outer .solution_image img{
+    width: 100%;
+    height: auto;
+    display: block;    
+}
+.solution_content{
+    flex: 1;
+    max-width: 50%;
+    padding: 50px;
+}
+.solution_content {
+    color: var(--white);
+}
+.solution_content .title h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.solution_content .sub-title h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.industry-list ul li{
+    margin: 20px 0;
+    font-size: 21px;
+    padding-left: 30px;
+    position: relative;
+}
+.industry-list ul li a{
+    color: var(--white);
+}
+.industry-list ul li a:hover{
+    color: #9ecb58;
+}
+.industry-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 23px; /* Adjust size of the arrow */
+    height: 21px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>') no-repeat center;
+    background-size: contain; /* Scale the SVG properly */
+    /* margin-right: 80px; */
+  }
