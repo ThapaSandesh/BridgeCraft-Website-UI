@@ -54,6 +54,9 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    body{
+        font-size: 1rem;
+    }
     .nav-menu .menu-main-ul .menu-main-li {
         margin: 0 1rem;
     }
