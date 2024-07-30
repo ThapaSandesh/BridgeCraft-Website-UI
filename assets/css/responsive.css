@@ -1,0 +1,85 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-menu .menu-main-ul {
+        flex-direction: column;
+    }
+    
+    .nav-menu .menu-main-ul .menu-main-li {
+        width: 100%;
+    }
+    
+    .nav-menu .menu-main-ul .menu-main-li .menu-main-a {
+        text-align: left;
+        padding: 14px 16px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .nav-menu .menu-main-ul {
+        flex-direction: column;
+    }
+    
+    .nav-menu .menu-main-ul .menu-main-li {
+        width: 100%;
+    }
+    
+    .nav-menu .menu-main-ul .menu-main-li .menu-main-a {
+        text-align: left;
+        padding: 14px 16px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .nav-menu .menu-main-ul {
+        flex-direction: row;
+    }
+    
+    .nav-menu .menu-main-ul .menu-main-li {
+        width: auto;
+    }
+    
+    .nav-menu .menu-main-ul .menu-main-li .menu-main-a {
+        text-align: center;
+        padding: 14px 16px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nav-menu .menu-main-ul .menu-main-li {
+        margin: 0 1rem;
+    }
+    #section_hot_news{
+        padding: .6rem .4rem;
+    }
+    .service-title h3{
+        font-size: 2rem;
+    }
+    #section_banner .banner-content h1{
+        font-size: 3.5rem!important;
+        line-height: 5rem!important;
+    }
+    #section_banner .banner-content p {
+        padding-top: 2.5rem;
+        line-height: 2rem;
+    }
+    .service-item:hover .service-image {
+        opacity: 1; /* Show the image on hover */
+        transform: translateX(80px); /* Slide the image to its original position */
+    }
+    
+    .service-item:hover .service-title {
+        transform: translateX(120px); /* Move the title to the right when hovered */
+    }
+    .industry-list ul li{
+        font-size: 18px;
+    }
+}
