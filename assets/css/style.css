@@ -174,6 +174,9 @@ ul li {
 .pb-50 {
     padding-bottom: 3.125rem;
 }
+.ptb-60{
+    padding: 60px 0;
+}
 
 .fw-500{
     font-weight: 500;
@@ -688,7 +691,6 @@ ul li {
 #solutions_section{
  /* background: #4d545c; */
  background: #573f69;
-
 }
 
 .main_wrapper {
@@ -776,7 +778,7 @@ ul li {
   /* fancy button */
   .fancy {
     background-color: transparent;
-    border: 2px solid #9ecb58;
+    border: 2px solid #c293e5;
     border-radius: 0;
     box-sizing: border-box;
     color: #fff;
@@ -883,14 +885,14 @@ ul li {
    }
 
    /* service 2 section */
-   .service_inner .title{
+   .main_inner .title{
     text-align: center;
    }
 
    #section_services{
     padding: 60px 0;
    }
-.section_services .service_inner{
+.main_inner{
     max-width: 1500px;
     margin: 0 auto;
 }
