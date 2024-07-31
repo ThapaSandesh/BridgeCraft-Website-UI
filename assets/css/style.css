@@ -1041,10 +1041,38 @@ ul li {
 
   /* footer section */
   #footer_section{
-    margin-top: 60px;
     background: #573f69;
   }
   footer{
     padding: 40px 0;
     color: #fff;
+  }
+  .footer-items{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-items .items {
+    flex: 1; /* This makes each item take up an equal portion of the available space */
+    padding: 10px; /* Optional: Add padding for better spacing */
+  }
+  .footer-items .list,
+  p{
+    margin-top: 20px;
+  }
+  .footer-items .list ul li a{
+    color: var(--white);
+  }
+  .footer-items .list ul li{
+    margin-bottom: 15px;
+  }
+  .footer-items .list ul li:hover a{
+    color: #9ecb58;
+    transition: color 0.3s ease;
+  }
+  .footer-phone{
+  margin-bottom: 0!important;
+
+  }
+  .since-2024{
+    color: #9ecb58!important;
   }
