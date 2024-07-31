@@ -1055,8 +1055,10 @@ ul li {
     flex: 1; /* This makes each item take up an equal portion of the available space */
     padding: 10px; /* Optional: Add padding for better spacing */
   }
-  .footer-items .list,
-  p{
+  .footer-items .list{
+    margin-top: 20px;
+  }
+  .footer-items p{
     margin-top: 20px;
   }
   .footer-items .list ul li a{
