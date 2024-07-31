@@ -393,6 +393,7 @@ ul li {
     outline: none;
     overflow: hidden;
     font-size: 1rem;
+    cursor: pointer;
   }
   
   .icon {
@@ -776,6 +777,10 @@ ul li {
     /* margin-right: 80px; */
   }
   /* fancy button */
+
+  .know-more-btn .a{
+    color: var(--black)!important;
+}
   .fancy {
     background-color: transparent;
     border: 2px solid #c293e5;
@@ -800,6 +805,8 @@ ul li {
     font-size: 13px;
    }
    
+
+
    .fancy::before {
     content: " ";
     width: 1.5625rem;
@@ -968,4 +975,76 @@ ul li {
   .cta:hover .hover-underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  /* works  */
+  .products_items .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    position: relative;
+  }
+  .content, .image {
+    flex: 1;
+     /* Center-align content */
+  }
+ /* Navigation arrows styling */
+.owl-nav {
+    position: absolute !important;
+    top: 50% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    transform: translateY(-50%) !important;
+  }
+  
+  .owl-nav button {
+    background: var(--primary-color) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+    padding: 0 !important; /* Ensure no padding */
+    line-height: 0 !important; /* Ensure line height does not affect centering */
+  }
+  
+  .owl-nav button:hover {
+    background: var(--divider-color) !important;
+  }
+  .owl-nav .owl-prev {
+    position: absolute;
+    left: -50px; /* Adjust as needed */
+  }
+  
+  .owl-nav .owl-next {
+    position: absolute;
+    right: -50px; /* Adjust as needed */
+  }
+  .item-category span{
+    background: #e7e6e6;
+    padding: 5px;
+    
+  }
+  .products_items .items-title h3{
+    line-height: 50px;
+  }
+
+  /* footer section */
+  #footer_section{
+    margin-top: 60px;
+    background: var(--black);
+  }
+  footer{
+    padding: 40px 0;
+    color: #fff;
   }
