@@ -178,12 +178,22 @@
     .nav-menu {
         display: none;
         position: absolute;
-        top: 100%;
+        top: 105px;
+        z-index: 9999999;
         left: 0;
         right: 0;
         background-color: #fff;
         flex-direction: column;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+    .actions{
+        display: none;
+    }
+    .menu-main-a{
+        padding: 10px 0!important;
     }
 
     .menu-main-ul {
@@ -203,5 +213,6 @@
     }
     .navbar.active .nav-menu {
         display: flex;
+        max-height: 500px; /* Adjust the max height as needed */
     }
 }
