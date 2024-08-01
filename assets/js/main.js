@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $("#product_carousel").owlCarousel({
       items: 1,
-      loop:true,
-      autoplay: true,
+      loop:false,
+      autoplay: false,
       autoplayTimeout: 3000,
       autoplayHoverPause: true,
       nav: true,
