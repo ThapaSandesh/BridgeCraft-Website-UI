@@ -174,4 +174,34 @@
         background: #C2E7FE;
         padding: 0 10px;
     }
+    /* navbar  */
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-main-ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-main-li {
+        margin: 0;
+        width: 100%;
+    }
+    .menu-main-a {
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navbar.active .nav-menu {
+        display: flex;
+    }
 }

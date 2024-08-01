@@ -364,7 +364,10 @@ ul li {
 {
     transform: rotate(180deg);
 }
-
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
 .actions{
     display: flex;
 }

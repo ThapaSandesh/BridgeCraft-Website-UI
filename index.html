@@ -27,6 +27,13 @@
                     <a href=""><img src="assets/images/logo.png" alt="BridgeCraftTechnology Primary Logo"></a>
 
                 </div>
+                <div class="hamburger" id="hamburger">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </div>
                 <div class="nav-menu">
                     <ul class="menu-main-ul">
                         <li class="menu-main-li"><a href="" class="menu-main-a">Solutions<svg width="20" height="20"
@@ -505,6 +512,16 @@
     </section>
     <script src="assets/js/main.js"></script>
     <script src="assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+                const hamburger = document.querySelector('#hamburger');
+                const navbar = document.querySelector('.navbar');
+
+                hamburger.addEventListener('click', function() {
+                    navbar.classList.toggle('active');
+                });
+            });
+    </script>
 </body>
 
 </html>
