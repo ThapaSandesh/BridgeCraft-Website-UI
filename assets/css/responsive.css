@@ -65,6 +65,7 @@
  
 }
 
+/* mobile phone responsive */
 @media (max-width: 768px) {
     /* service section */
     #section_services{
@@ -213,6 +214,79 @@
     }
     .navbar.active .nav-menu {
         display: flex;
+        max-height: 1500px; /* Adjust the max height as needed */
+    }
+    .mob-actions{
+        display: block;
+        padding-bottom: 20px;
+    }
+}
+
+/* tablets responsive ness */
+@media (min-width: 600px) and (max-width: 1024px) 
+{
+      /* navbar  */
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 105px;
+        z-index: 9999999;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+    .navbar .actions{
+        display: none;
+    }
+    .menu-main-a{
+        padding: 10px 0!important;
+    }
+
+    .menu-main-ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-main-li {
+        margin: 0;
+        width: 100%;
+    }
+    .menu-main-a {
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navbar.active .nav-menu {
+        display: flex;
         max-height: 500px; /* Adjust the max height as needed */
+    }
+    .banner-content{
+        width: 100%;
+        max-width: 80%;
+      
+        
+    }
+    #section_banner .banner-content h1{
+        font-size: 75px!important;
+        line-height: 75px;
+        padding-bottom: 45px;
+    }
+    #section_banner .banner-content p{
+        font-size: 18px!important;
+        line-height: 30px;
+        padding-top: 35px;
+    }
+    #section_banner{
+        height: 60vh;
+    }
+    .mob-actions{
+        display: block;
+        padding-bottom: 20px;
     }
 }

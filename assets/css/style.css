@@ -219,6 +219,9 @@ ul li {
 .nav-menu .menu-main-li {
     position: relative; /* Ensure submenus are positioned relative to their parent li */
 }
+.mob-actions{
+    display: none;
+}
 .nav-menu .menu-main-ul .menu-main-li{
     margin: 0 4rem;
 }
@@ -1138,7 +1141,6 @@ ul li {
 
 .process {
     display: flex;
-    align-items: safe;
     position: relative;
     width: 100%;
     margin-top: 75px;
