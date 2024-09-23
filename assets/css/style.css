@@ -1255,3 +1255,19 @@ ul li {
   .since-2024{
     color: #9ecb58!important;
   }
+  .section_inner_banner{
+    
+    height: 140px;
+    background:#161851 ;
+    align-items: center;
+  }
+  .section_inner_banner .banner_title h2{
+    text-align: center;
+    font-weight: 400!important;
+    color: #fff;
+    
+  }
+  #container {  
+    max-width: 920px;
+}
+

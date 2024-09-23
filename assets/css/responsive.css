@@ -147,7 +147,7 @@
     /* banner  */
     .banner-content{
         width: 100%;
-        max-width: 100%;
+        max-width: 90%;
        padding: 10px!important;
         
     }
@@ -219,6 +219,9 @@
     .mob-actions{
         display: block;
         padding-bottom: 20px;
+    }
+    .nav-menu li:hover .sub-menu{
+        z-index: 99999999999999;
     }
 }
 
